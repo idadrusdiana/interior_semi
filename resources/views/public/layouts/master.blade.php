@@ -15,7 +15,8 @@
         </div>
         <nav class="nav justify-content-end navbar-expand-sm bg-dark navbar-dark">
             <a href="#" class="navbar-brand" data-toggle="modal" data-target="#exampleModal">Registrasi</a>
-            <a class="navbar-brand" href="">Login</a>
+            <a class="navbar-brand" href="{{ route('login1') }}">Login</a>
+            <a class="navbar-brand" href="{{ route('logout') }}">Logout</a>
         </nav>
 		{{-- <h2>GGM INTERIOR CREATIVITY</h2>
 		<nav>
